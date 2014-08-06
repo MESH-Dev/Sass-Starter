@@ -1,0 +1,17 @@
+/*!
+Theme Name: WP Starter
+Theme URI: http://pateason.com
+Author: Pat Eason
+Author URI: http://pateason.com
+Description: Stock, super simple theme for getting started on WordPress theme development. Nothing fancy, nothing complicated, just pure WordPress, pure and simple.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+*/
+
+@import "reset";
+@import "base";
+@import "typography";
+@import "grid";
+@import "layout";
