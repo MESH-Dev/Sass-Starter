@@ -21,20 +21,19 @@
 ================================================= */
 
 
-$cream: #F1E3C2;
-$tan: #E3D9BF;
-$grey: #E9E9E9;
+/*
+
+Provide variables for all colors and fonts. Examples:
+
 $red: #E31B23;
-$cherry_black: #472A2B;
-$dark_red: #921B23;
-$brownish: #a27b30;
+$minion:"minion-pro";
+
+*/
 
 
 /* #Basic Styles
 ================================================== */
 body {
-	background: #ffffff url("assets/img/SA_backgroundpattern.jpg") repeat;
-
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
  }
@@ -43,137 +42,27 @@ body {
 /* #Buttons
 ================================================== */
 
-a.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-	background: $grey;
-	border: 1px solid $cherry_black;
-	outline: 1px solid $cherry_black;
-	outline-offset: -4px;
-	padding: 5px 35px;
-	color: $cherry_black;
-	display: inline-block;
-	font-size: 12px;
-	font-weight: 300;
-	text-decoration: none;
-	text-transform: uppercase;
-	cursor: pointer;
-	margin-bottom: 10px;
-	line-height: 21px;
-	font-family: "Oswald", sans-serif;
-}
+button{}
 
-a.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover {
-	background: $red;
-	color: $cream;
+/* #Forms
+================================================== */
 
-	  }
-
-a.button:active,
-button:active,
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active {
-	background: $dark_red;
-	color: $cream; }
-
-.button.callout-btn,
-button.callout-btn,
-input[type="submit"].callout-btn,
-input[type="reset"].callout-btn,
-input[type="button"].callout-btn {
-	font-family: "Stint Ultra Expanded", cursive;
-	letter-spacing: 0.12em;
-	text-align: center;
-	padding: 10px 35px;
-
-	& span.callout{
-		font: 22px/26px "Oswald", sans-serif;
-		text-transform: uppercase;
-		text-align: center;
-		display: block;
-		width: 100%;
-	}
-}
-
-.button.full-width,
-button.full-width,
-input[type="submit"].full-width,
-input[type="reset"].full-width,
-input[type="button"].full-width {
-	width: 100%;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-	text-align: center; }
-
-
-
-
+input[type="text"]{}
+input[type="password"]{}
+input[type="search"]{}
+input[type="email"]{}
+input[type="number"]{}
+input[type="submit"]{}
 
 
 /* #Forms
 ================================================== */
 
-form {
-	margin-bottom: 20px; }
-fieldset {
-	margin-bottom: 20px; }
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="url"],
-textarea,
-select {
-	border: 1px solid #FFF;
-	padding: 6px 4px;
-	outline: none;
-	font: 14px/26px "Open Sans", Helvetica, Arial, sans-serif;
-	color: $cherry_black;
-	margin: 0;
-	width: 210px;
-	max-width: 100%;
-	display: block;
-	margin-bottom: 20px;
-	background: #fff; }
-select {
-	padding: 0; }
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-textarea:focus {
-	border: 1px solid #aaa;
-		color: $cherry_black;
-		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
-	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
-	box-shadow:  0 0 3px rgba(0,0,0,.2); }
-textarea {
-	min-height: 60px; }
-label,
-legend {
-	display: block;
-	font-weight: bold;
-	font-size: 14px;  }
-select {
-	width: 220px; }
-input[type="checkbox"] {
-	display: inline; }
-label span,
-legend span {
-	font-weight: normal;
-	font-size: 12x;
-	color: $cherry_black; }
 
 /* #Images
 ================================================== */
 
-img.scale-with-grid {
+img {
 	max-width: 100%;
 	height: auto; }
 
