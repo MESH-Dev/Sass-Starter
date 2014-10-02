@@ -22,7 +22,7 @@ module.exports = function (grunt) {
         uglify: {
           js: {
             files: {
-              'assets/prod/<%= pkg.name %>.js': ['assets/js/<%= pkg.name %>.js']
+              'assets/prod/<%= pkg.name %>.js': ['assets/js/<%= pkg.name %>.min.js']
             }
           }
         },
